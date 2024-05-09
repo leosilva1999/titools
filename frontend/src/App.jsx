@@ -7,6 +7,7 @@ import EquipmentList from './pages/EquipmentList/EquipmentList'
 
 //components
 import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
               <Route path='/equipmentlist' element={<EquipmentList />}></Route>
             </Routes>
           </BrowserRouter>
+          <Footer />
       </div>
   )
 }

@@ -1,0 +1,52 @@
+.sidebar{
+    background-color: #191919;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+}
+
+.timesIcon{
+        color: #FFFF;
+        cursor: pointer;
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        margin-top: 32px;
+        margin-left: 32px;
+}
+
+.container{
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+}
+
+.container li{
+    margin-top: 0px;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.container li:hover{
+    color: #191919;
+    background-color: #d3d3d3;
+}
+
+.container span{
+    font-weight: bold;
+}
+
+.container span:hover{
+    color: white;
+}
+
+.navlink{
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+    color: #191919;
+}
