@@ -8,13 +8,17 @@
 }
 
 .timesIcon{
-        color: #FFFF;
-        cursor: pointer;
-        position: fixed;
-        width: 30px;
-        height: 30px;
-        margin-top: 32px;
-        margin-left: 32px;
+    color: #FFFF;
+    cursor: pointer;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.timesIcon:hover{
+    color: #d3d3d3;
 }
 
 .container{
@@ -23,7 +27,12 @@
     width: 100%;
 }
 
+.container ul{
+    padding-inline-start: 0px;
+}
+
 .container li{
+    list-style: none;
     margin-top: 0px;
     height: 100%;
     background-color: white;
@@ -40,7 +49,7 @@
     font-weight: bold;
 }
 
-.container span:hover{
+.container span:hover, .navlink li:active > {
     color: white;
 }
 

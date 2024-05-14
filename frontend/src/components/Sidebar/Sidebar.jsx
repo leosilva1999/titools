@@ -15,8 +15,8 @@ const Sidebar = ({ active }) => {
         <div className={styles.container}>
             <nav>
                 <ul>
-                    <li><NavLink className={styles.navlink} to="/equipmentlist"><span>Controle de equipamentos</span></NavLink></li>
-                    <li><NavLink className={styles.navlink} to="/"><span>Lista de chamados</span></NavLink></li>
+                    <NavLink className={styles.navlink} to="/equipmentlist"><li><span>Controle de equipamentos</span></li></NavLink>
+                    <NavLink className={styles.navlink} to="/"><li><span>Lista de chamados</span></li></NavLink>
                 </ul>
             </nav>
         </div>
